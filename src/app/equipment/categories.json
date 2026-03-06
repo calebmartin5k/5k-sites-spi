@@ -1,0 +1,358 @@
+{
+  "A": [
+    {
+      "href": "/category/accumulation-table",
+      "name": "Accumulation Table"
+    },
+    {
+      "href": "/category/agitator",
+      "name": "Agitator"
+    }
+  ],
+  "B": [
+    {
+      "href": "/category/bag-stitcher",
+      "name": "Bag Stitcher"
+    },
+    {
+      "href": "/category/bagger",
+      "name": "Bagger"
+    },
+    {
+      "href": "/category/bakery-equipment",
+      "name": "Bakery Equipment"
+    },
+    {
+      "href": "/category/baler",
+      "name": "Baler"
+    },
+    {
+      "href": "/category/bin-hopper-silo",
+      "name": "Bin Hopper Silo"
+    },
+    {
+      "href": "/category/blister-packer-skin-packer-and-thermoformer",
+      "name": "Blister Packer Skin Packer And Thermoformer"
+    },
+    {
+      "href": "/category/blower",
+      "name": "Blower"
+    },
+    {
+      "href": "/category/boiler",
+      "name": "Boiler"
+    },
+    {
+      "href": "/category/briquetter-chilsonator-and-roll-compactor",
+      "name": "Briquetter Chilsonator And Roll Compactor"
+    }
+  ],
+  "C": [
+    {
+      "href": "/category/calciner",
+      "name": "Calciner"
+    },
+    {
+      "href": "/category/can-and-bottle-cleaning-machine",
+      "name": "Can And Bottle Cleaning Machine"
+    },
+    {
+      "href": "/category/canning-machine",
+      "name": "Canning Machine"
+    },
+    {
+      "href": "/category/capping-machine",
+      "name": "Capping Machine"
+    },
+    {
+      "href": "/category/cartoner",
+      "name": "Cartoner"
+    },
+    {
+      "href": "/category/case-former",
+      "name": "Case Former"
+    },
+    {
+      "href": "/category/case-packer",
+      "name": "Case Packer"
+    },
+    {
+      "href": "/category/case-printer",
+      "name": "Case Printer"
+    },
+    {
+      "href": "/category/case-sealer",
+      "name": "Case Sealer"
+    },
+    {
+      "href": "/category/centrifuge",
+      "name": "Centrifuge"
+    },
+    {
+      "href": "/category/checkweighter-metal-detector-and-xray-inspection",
+      "name": "Checkweighter Metal Detector And Xray Inspection"
+    },
+    {
+      "href": "/category/chiller",
+      "name": "Chiller"
+    },
+    {
+      "href": "/category/coder",
+      "name": "Coder"
+    },
+    {
+      "href": "/category/complete-packaging-line",
+      "name": "Complete Packaging Line"
+    },
+    {
+      "href": "/category/compressor",
+      "name": "Compressor"
+    },
+    {
+      "href": "/category/conveyor",
+      "name": "Conveyor"
+    },
+    {
+      "href": "/category/crusher",
+      "name": "Crusher"
+    }
+  ],
+  "D": [
+    {
+      "href": "/category/deaerator",
+      "name": "Deaerator"
+    },
+    {
+      "href": "/category/depalletizer",
+      "name": "Depalletizer"
+    },
+    {
+      "href": "/category/dicer-and-slicer",
+      "name": "Dicer And Slicer"
+    },
+    {
+      "href": "/category/disintegrator",
+      "name": "Disintegrator"
+    },
+    {
+      "href": "/category/distillation-column-and-still",
+      "name": "Distillation Column And Still"
+    },
+    {
+      "href": "/category/dust-collector",
+      "name": "Dust Collector"
+    }
+  ],
+  "E": [
+    {
+      "href": "/category/electric-generator",
+      "name": "Electric Generator"
+    },
+    {
+      "href": "/category/elevator",
+      "name": "Elevator"
+    },
+    {
+      "href": "/category/enrober",
+      "name": "Enrober"
+    },
+    {
+      "href": "/category/evaporator",
+      "name": "Evaporator"
+    },
+    {
+      "href": "/category/extruder",
+      "name": "Extruder"
+    }
+  ],
+  "F": [
+    {
+      "href": "/category/feeder",
+      "name": "Feeder"
+    },
+    {
+      "href": "/category/filler",
+      "name": "Filler"
+    },
+    {
+      "href": "/category/filters",
+      "name": "Filters"
+    },
+    {
+      "href": "/category/flaker",
+      "name": "Flaker"
+    },
+    {
+      "href": "/category/forklift",
+      "name": "Forklift"
+    },
+    {
+      "href": "/category/form-fill-and-seal",
+      "name": "Form Fill And Seal"
+    }
+  ],
+  "G": [
+    {
+      "href": "/category/granulator",
+      "name": "Granulator"
+    }
+  ],
+  "H": [
+    {
+      "href": "/category/heat-exchanger",
+      "name": "Heat Exchanger"
+    },
+    {
+      "href": "/category/homogenizer",
+      "name": "Homogenizer"
+    },
+    {
+      "href": "/category/hot-melt-dispenser",
+      "name": "Hot Melt Dispenser"
+    }
+  ],
+  "K": [
+    {
+      "href": "/category/kettle",
+      "name": "Kettle"
+    }
+  ],
+  "L": [
+    {
+      "href": "/category/labeling-equipment",
+      "name": "Labeling Equipment"
+    }
+  ],
+  "M": [
+    {
+      "href": "/category/mixer-and-blender",
+      "name": "Mixer And Blender"
+    },
+    {
+      "href": "/category/motor-starter",
+      "name": "Motor Starter"
+    }
+  ],
+  "O": [
+    {
+      "href": "/category/oven",
+      "name": "Oven"
+    }
+  ],
+  "P": [
+    {
+      "href": "/category/palletizer",
+      "name": "Palletizer"
+    },
+    {
+      "href": "/category/pasteurizer-tunnel",
+      "name": "Pasteurizer Tunnel"
+    },
+    {
+      "href": "/category/press",
+      "name": "Press"
+    },
+    {
+      "href": "/category/pulverizer",
+      "name": "Pulverizer"
+    },
+    {
+      "href": "/category/pump",
+      "name": "Pump"
+    }
+  ],
+  "R": [
+    {
+      "href": "/category/reactor",
+      "name": "Reactor"
+    },
+    {
+      "href": "/category/retort",
+      "name": "Retort"
+    },
+    {
+      "href": "/category/rotary-cooler",
+      "name": "Rotary Cooler"
+    }
+  ],
+  "S": [
+    {
+      "href": "/category/scale",
+      "name": "Scale"
+    },
+    {
+      "href": "/category/scrubber",
+      "name": "Scrubber"
+    },
+    {
+      "href": "/category/sealer",
+      "name": "Sealer"
+    },
+    {
+      "href": "/category/shrink-tunnel",
+      "name": "Shrink Tunnel"
+    }
+  ],
+  "T": [
+    {
+      "href": "/category/tamper-evident-sealer",
+      "name": "Tamper Evident Sealer"
+    },
+    {
+      "href": "/category/tank",
+      "name": "Tank"
+    },
+    {
+      "href": "/category/transformers-and-switchgear",
+      "name": "Transformers And Switchgear"
+    },
+    {
+      "href": "/category/tray-former-packer",
+      "name": "Tray Former Packer"
+    },
+    {
+      "href": "/category/turbine",
+      "name": "Turbine"
+    }
+  ],
+  "U": [
+    {
+      "href": "/category/uncaser-and-decaser",
+      "name": "Uncaser And Decaser"
+    },
+    {
+      "href": "/category/unscrambler",
+      "name": "Unscrambler"
+    }
+  ],
+  "V": [
+    {
+      "href": "/category/valve",
+      "name": "Valve"
+    },
+    {
+      "href": "/category/vibratory-screener-and-sifter",
+      "name": "Vibratory Screener And Sifter"
+    }
+  ],
+  "W": [
+    {
+      "href": "/category/washer",
+      "name": "Washer"
+    },
+    {
+      "href": "/category/woodworking",
+      "name": "Woodworking"
+    },
+    {
+      "href": "/category/wrapping-machine",
+      "name": "Wrapping Machine"
+    }
+  ],
+  "I": [
+    {
+      "href": "/category/industrial-process-dryer",
+      "name": "Industrial Process Dryer"
+    }
+  ]
+}

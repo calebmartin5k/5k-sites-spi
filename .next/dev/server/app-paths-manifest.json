@@ -1,0 +1,7 @@
+{
+  "/aivpe/page": "app/aivpe/page.js",
+  "/architect/page": "app/architect/page.js",
+  "/contact-us/page": "app/contact-us/page.js",
+  "/equipment/page": "app/equipment/page.js",
+  "/page": "app/page.js"
+}

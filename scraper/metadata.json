@@ -1,0 +1,46 @@
+{
+  "baseUrl": "https://specialprojects.com",
+  "scrapedAt": "2026-03-04T20:10:26.134Z",
+  "totalPages": 4,
+  "successful": 3,
+  "failed": 1,
+  "pages": [
+    {
+      "url": "https://specialprojects.com/categories",
+      "timestamp": "2026-03-04T20:09:21.490Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://specialprojects.com/services",
+      "timestamp": "2026-03-04T20:09:41.424Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    },
+    {
+      "url": "https://specialprojects.com/toolbox/engineering-calculators",
+      "timestamp": "2026-03-04T20:09:59.094Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": false,
+      "error": "Page timeout: The page took too long to load (45s). This can happen with slow sites or pages with continuous background requests."
+    },
+    {
+      "url": "https://specialprojects.com/contact-us",
+      "timestamp": "2026-03-04T20:10:26.052Z",
+      "viewport": {
+        "width": 1440,
+        "height": 1080
+      },
+      "success": true
+    }
+  ]
+}
