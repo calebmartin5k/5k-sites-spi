@@ -1,13 +1,13 @@
 "use client";
 
-import { useState, useEffect } from 'react';
+import { useState, useEffect, Suspense } from 'react';
 import { useSearchParams, useRouter } from 'next/navigation';
 import InventoryTable from '../../components/aivpe/InventoryTable';
 import DashboardCharts from '../../components/aivpe/DashboardCharts';
 import WarehouseMap from '../../components/aivpe/WarehouseMap';
 import { Activity, TrendingDown, TrendingUp, AlertTriangle, LayoutDashboard, PackageSearch, Map } from 'lucide-react';
 
-export default function AIVPEDashboard() {
+function DashboardContent() {
   const [activeTab, setActiveTab] = useState<'dashboard' | 'inventory' | 'map'>('dashboard');
   const searchParams = useSearchParams();
   const router = useRouter();
@@ -165,5 +165,13 @@ function KPICard({ title, value, trend, trendUp, icon, alert = false }: { title:
         </div>
       </div>
     </div>
+  );
+}
+
+export default function AIVPEDashboard() {
+  return (
+    <Suspense fallback={<div className="p-8 text-spi-muted font-mono text-xs uppercase tracking-widest animate-pulse">Initializing AIVPE Systems...</div>}>
+      <DashboardContent />
+    </Suspense>
   );
 }
