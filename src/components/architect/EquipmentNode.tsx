@@ -44,12 +44,12 @@ export default function EquipmentNode({ data }: { data: EquipmentData }) {
       <Handle 
         type="target" 
         position={Position.Left} 
-        className="w-3 h-3 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
+        className="w-5 h-5 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
       />
       <Handle 
         type="source" 
         position={Position.Right} 
-        className="w-3 h-3 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
+        className="w-5 h-5 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
       />
     </motion.div>
   );

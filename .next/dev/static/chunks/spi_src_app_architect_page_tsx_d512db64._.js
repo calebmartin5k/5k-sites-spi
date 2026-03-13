@@ -6,7 +6,7 @@
   "static/chunks/35107_@xyflow_react_dist_esm_index_ce4df88e.js",
   "static/chunks/35107_motion-dom_dist_es_803ef792._.js",
   "static/chunks/35107_framer-motion_dist_es_ea8f43c7._.js",
-  "static/chunks/35107_dc160a39._.js",
+  "static/chunks/35107_ab35c820._.js",
   "static/chunks/35107_@xyflow_react_dist_style_533d570b.css"
 ],
     source: "dynamic"

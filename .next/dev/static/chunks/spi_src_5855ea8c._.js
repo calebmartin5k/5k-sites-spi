@@ -1270,13 +1270,13 @@ var _s = __turbopack_context__.k.signature();
 ;
 ;
 ;
-function AIVPEDashboard() {
+function DashboardContent() {
     _s();
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])('dashboard');
     const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSearchParams"])();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"])();
     (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useEffect"])({
-        "AIVPEDashboard.useEffect": ()=>{
+        "DashboardContent.useEffect": ()=>{
             const tab = searchParams.get('tab');
             if (tab === 'inventory' || tab === 'map') {
                 setActiveTab(tab);
@@ -1284,7 +1284,7 @@ function AIVPEDashboard() {
                 setActiveTab('dashboard');
             }
         }
-    }["AIVPEDashboard.useEffect"], [
+    }["DashboardContent.useEffect"], [
         searchParams
     ]);
     const handleTabChange = (tab)=>{
@@ -1647,13 +1647,13 @@ function AIVPEDashboard() {
         ]
     }, void 0, true);
 }
-_s(AIVPEDashboard, "gM25zwt+UmeYT4xuqGer2gEoFTE=", false, function() {
+_s(DashboardContent, "gM25zwt+UmeYT4xuqGer2gEoFTE=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useSearchParams"],
         __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRouter"]
     ];
 });
-_c = AIVPEDashboard;
+_c = DashboardContent;
 function KPICard({ title, value, trend, trendUp, icon, alert = false }) {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
         className: `p-6 border ${alert ? 'border-amber-500/50 bg-amber-500/5' : 'border-spi-border bg-spi-surface/80'} backdrop-blur-md relative overflow-hidden group`,
@@ -1716,9 +1716,32 @@ function KPICard({ title, value, trend, trendUp, icon, alert = false }) {
     }, this);
 }
 _c1 = KPICard;
-var _c, _c1;
-__turbopack_context__.k.register(_c, "AIVPEDashboard");
+function AIVPEDashboard() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Suspense"], {
+        fallback: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "p-8 text-spi-muted font-mono text-xs uppercase tracking-widest animate-pulse",
+            children: "Initializing AIVPE Systems..."
+        }, void 0, false, {
+            fileName: "[project]/spi/src/app/aivpe/page.tsx",
+            lineNumber: 173,
+            columnNumber: 25
+        }, void 0),
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(DashboardContent, {}, void 0, false, {
+            fileName: "[project]/spi/src/app/aivpe/page.tsx",
+            lineNumber: 174,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/spi/src/app/aivpe/page.tsx",
+        lineNumber: 173,
+        columnNumber: 5
+    }, this);
+}
+_c2 = AIVPEDashboard;
+var _c, _c1, _c2;
+__turbopack_context__.k.register(_c, "DashboardContent");
 __turbopack_context__.k.register(_c1, "KPICard");
+__turbopack_context__.k.register(_c2, "AIVPEDashboard");
 if (typeof globalThis.$RefreshHelpers$ === 'object' && globalThis.$RefreshHelpers !== null) {
     __turbopack_context__.k.registerExports(__turbopack_context__.m, globalThis.$RefreshHelpers$);
 }

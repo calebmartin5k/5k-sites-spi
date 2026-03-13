@@ -15,7 +15,7 @@ import { useIPLAStore, EquipmentData, EquipmentNode } from './store';
 import EquipmentNodeComponent from './EquipmentNode';
 import Sidebar from './Sidebar';
 import MetricsPanel from './MetricsPanel';
-import { Trash2 } from 'lucide-react';
+import { Trash2, ChevronUp, ChevronDown } from 'lucide-react';
 
 const nodeTypes = {
   equipment: EquipmentNodeComponent,
@@ -24,6 +24,7 @@ const nodeTypes = {
 function IPLAContent() {
   const reactFlowWrapper = useRef<HTMLDivElement>(null);
   const [reactFlowInstance, setReactFlowInstance] = useState<any>(null);
+  const [showSuggestion, setShowSuggestion] = useState(true);
   
   const nodes = useIPLAStore((state) => state.nodes);
   const edges = useIPLAStore((state) => state.edges);
@@ -93,22 +94,34 @@ function IPLAContent() {
           />
           <Controls className="bg-spi-surface border-spi-border fill-spi-text" />
           
-          <Panel position="top-left" className="m-6 bg-spi-surface/90 backdrop-blur-md p-6 border border-spi-border max-w-sm pointer-events-auto">
-            <h1 className="text-2xl font-black uppercase tracking-tighter mb-2 text-white">
+          <Panel position="top-left" className="m-6 bg-spi-surface/90 backdrop-blur-md p-6 border border-spi-border max-w-sm pointer-events-auto relative">
+            <button 
+              onClick={() => setShowSuggestion(!showSuggestion)}
+              className="absolute top-6 right-6 text-spi-muted hover:text-white transition-colors"
+              title={showSuggestion ? "Hide suggestions" : "Show suggestions"}
+            >
+              {showSuggestion ? <ChevronUp size={20} /> : <ChevronDown size={20} />}
+            </button>
+            <h1 className="text-2xl font-black uppercase tracking-tighter mb-2 text-white pr-8">
               Line Architect Demo
             </h1>
-            <p className="text-xs font-mono text-spi-muted mb-4 leading-relaxed">
-              Drag equipment from the inventory onto the canvas. Connect the nodes to see real-time error checking.
-            </p>
-            <div className="bg-spi-dark border border-spi-border p-3 text-xs mb-4">
-              <strong className="text-spi-red uppercase tracking-widest block mb-1">Try this Demo:</strong>
-              <ol className="list-decimal pl-4 space-y-1 text-spi-muted">
-                <li>Drag the <span className="text-white">High-Speed Filler 120</span> onto the canvas.</li>
-                <li>Drag the <span className="text-white">Ron Unger Capper</span> next to it.</li>
-                <li>Connect the dots between them.</li>
-                <li>Watch the error system catch the <strong>throughput bottleneck</strong> automatically!</li>
-              </ol>
-            </div>
+            
+            {showSuggestion && (
+              <>
+                <p className="text-xs font-mono text-spi-muted mb-4 leading-relaxed">
+                  Drag equipment from the inventory onto the canvas. Connect the nodes to see real-time error checking.
+                </p>
+                <div className="bg-spi-dark border border-spi-border p-3 text-xs mb-4">
+                  <strong className="text-spi-red uppercase tracking-widest block mb-1">Try this Demo:</strong>
+                  <ol className="list-decimal pl-4 space-y-1 text-spi-muted">
+                    <li>Drag the <span className="text-white">High-Speed Filler 120</span> onto the canvas.</li>
+                    <li>Drag the <span className="text-white">Ron Unger Capper</span> next to it.</li>
+                    <li>Connect the dots between them.</li>
+                    <li>Watch the error system catch the <strong>throughput bottleneck</strong> automatically!</li>
+                  </ol>
+                </div>
+              </>
+            )}
             {nodes.length > 0 && (
               <button 
                 onClick={clearAll}

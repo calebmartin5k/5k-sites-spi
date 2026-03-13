@@ -772,7 +772,7 @@ function EquipmentNode({ data }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$react$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Handle"], {
                 type: "target",
                 position: __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$system$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Position"].Left,
-                className: "w-3 h-3 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
+                className: "w-5 h-5 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
             }, void 0, false, {
                 fileName: "[project]/spi/src/components/architect/EquipmentNode.tsx",
                 lineNumber: 44,
@@ -781,7 +781,7 @@ function EquipmentNode({ data }) {
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$react$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Handle"], {
                 type: "source",
                 position: __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$system$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Position"].Right,
-                className: "w-3 h-3 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
+                className: "w-5 h-5 bg-spi-dark border-2 border-spi-border rounded-full hover:border-spi-red hover:bg-spi-red transition-colors"
             }, void 0, false, {
                 fileName: "[project]/spi/src/components/architect/EquipmentNode.tsx",
                 lineNumber: 49,
@@ -1636,6 +1636,8 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$
 var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$Sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/spi/src/components/architect/Sidebar.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$MetricsPanel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__ = __turbopack_context__.i("[project]/spi/src/components/architect/MetricsPanel.tsx [app-client] (ecmascript)");
 var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$trash$2d$2$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__Trash2$3e$__ = __turbopack_context__.i("[project]/spi/node_modules/lucide-react/dist/esm/icons/trash-2.js [app-client] (ecmascript) <export default as Trash2>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__ = __turbopack_context__.i("[project]/spi/node_modules/lucide-react/dist/esm/icons/chevron-up.js [app-client] (ecmascript) <export default as ChevronUp>");
+var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__ = __turbopack_context__.i("[project]/spi/node_modules/lucide-react/dist/esm/icons/chevron-down.js [app-client] (ecmascript) <export default as ChevronDown>");
 ;
 var _s = __turbopack_context__.k.signature();
 "use client";
@@ -1654,6 +1656,7 @@ function IPLAContent() {
     _s();
     const reactFlowWrapper = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useRef"])(null);
     const [reactFlowInstance, setReactFlowInstance] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(null);
+    const [showSuggestion, setShowSuggestion] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useState"])(true);
     const nodes = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$store$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIPLAStore"])({
         "IPLAContent.useIPLAStore[nodes]": (state)=>state.nodes
     }["IPLAContent.useIPLAStore[nodes]"]);
@@ -1710,7 +1713,7 @@ function IPLAContent() {
         children: [
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$Sidebar$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                 fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                lineNumber: 72,
+                lineNumber: 73,
                 columnNumber: 7
             }, this),
             /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
@@ -1737,122 +1740,148 @@ function IPLAContent() {
                             color: "#262626"
                         }, void 0, false, {
                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                            lineNumber: 88,
+                            lineNumber: 89,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$react$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Controls"], {
                             className: "bg-spi-surface border-spi-border fill-spi-text"
                         }, void 0, false, {
                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                            lineNumber: 94,
+                            lineNumber: 95,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$react$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["Panel"], {
                             position: "top-left",
-                            className: "m-6 bg-spi-surface/90 backdrop-blur-md p-6 border border-spi-border max-w-sm pointer-events-auto",
+                            className: "m-6 bg-spi-surface/90 backdrop-blur-md p-6 border border-spi-border max-w-sm pointer-events-auto relative",
                             children: [
+                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
+                                    onClick: ()=>setShowSuggestion(!showSuggestion),
+                                    className: "absolute top-6 right-6 text-spi-muted hover:text-white transition-colors",
+                                    title: showSuggestion ? "Hide suggestions" : "Show suggestions",
+                                    children: showSuggestion ? /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$up$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronUp$3e$__["ChevronUp"], {
+                                        size: 20
+                                    }, void 0, false, {
+                                        fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                        lineNumber: 103,
+                                        columnNumber: 33
+                                    }, this) : /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$lucide$2d$react$2f$dist$2f$esm$2f$icons$2f$chevron$2d$down$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$export__default__as__ChevronDown$3e$__["ChevronDown"], {
+                                        size: 20
+                                    }, void 0, false, {
+                                        fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                        lineNumber: 103,
+                                        columnNumber: 59
+                                    }, this)
+                                }, void 0, false, {
+                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                    lineNumber: 98,
+                                    columnNumber: 13
+                                }, this),
                                 /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("h1", {
-                                    className: "text-2xl font-black uppercase tracking-tighter mb-2 text-white",
+                                    className: "text-2xl font-black uppercase tracking-tighter mb-2 text-white pr-8",
                                     children: "Line Architect Demo"
                                 }, void 0, false, {
                                     fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                    lineNumber: 97,
+                                    lineNumber: 105,
                                     columnNumber: 13
                                 }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
-                                    className: "text-xs font-mono text-spi-muted mb-4 leading-relaxed",
-                                    children: "Drag equipment from the inventory onto the canvas. Connect the nodes to see real-time error checking."
-                                }, void 0, false, {
-                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                    lineNumber: 100,
-                                    columnNumber: 13
-                                }, this),
-                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
-                                    className: "bg-spi-dark border border-spi-border p-3 text-xs mb-4",
+                                showSuggestion && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["Fragment"], {
                                     children: [
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                            className: "text-spi-red uppercase tracking-widest block mb-1",
-                                            children: "Try this Demo:"
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("p", {
+                                            className: "text-xs font-mono text-spi-muted mb-4 leading-relaxed",
+                                            children: "Drag equipment from the inventory onto the canvas. Connect the nodes to see real-time error checking."
                                         }, void 0, false, {
                                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                            lineNumber: 104,
-                                            columnNumber: 15
+                                            lineNumber: 111,
+                                            columnNumber: 17
                                         }, this),
-                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
-                                            className: "list-decimal pl-4 space-y-1 text-spi-muted",
+                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+                                            className: "bg-spi-dark border border-spi-border p-3 text-xs mb-4",
                                             children: [
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: [
-                                                        "Drag the ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-white",
-                                                            children: "High-Speed Filler 120"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                            lineNumber: 106,
-                                                            columnNumber: 30
-                                                        }, this),
-                                                        " onto the canvas."
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                    lineNumber: 106,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: [
-                                                        "Drag the ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
-                                                            className: "text-white",
-                                                            children: "Ron Unger Capper"
-                                                        }, void 0, false, {
-                                                            fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                            lineNumber: 107,
-                                                            columnNumber: 30
-                                                        }, this),
-                                                        " next to it."
-                                                    ]
-                                                }, void 0, true, {
-                                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                    lineNumber: 107,
-                                                    columnNumber: 17
-                                                }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
-                                                    children: "Connect the dots between them."
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                    className: "text-spi-red uppercase tracking-widest block mb-1",
+                                                    children: "Try this Demo:"
                                                 }, void 0, false, {
                                                     fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                    lineNumber: 108,
-                                                    columnNumber: 17
+                                                    lineNumber: 115,
+                                                    columnNumber: 19
                                                 }, this),
-                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("ol", {
+                                                    className: "list-decimal pl-4 space-y-1 text-spi-muted",
                                                     children: [
-                                                        "Watch the error system catch the ",
-                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
-                                                            children: "throughput bottleneck"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: [
+                                                                "Drag the ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-white",
+                                                                    children: "High-Speed Filler 120"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                                                    lineNumber: 117,
+                                                                    columnNumber: 34
+                                                                }, this),
+                                                                " onto the canvas."
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                                            lineNumber: 117,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: [
+                                                                "Drag the ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("span", {
+                                                                    className: "text-white",
+                                                                    children: "Ron Unger Capper"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                                                    lineNumber: 118,
+                                                                    columnNumber: 34
+                                                                }, this),
+                                                                " next to it."
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                                            lineNumber: 118,
+                                                            columnNumber: 21
+                                                        }, this),
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: "Connect the dots between them."
                                                         }, void 0, false, {
                                                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                            lineNumber: 109,
-                                                            columnNumber: 54
+                                                            lineNumber: 119,
+                                                            columnNumber: 21
                                                         }, this),
-                                                        " automatically!"
+                                                        /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("li", {
+                                                            children: [
+                                                                "Watch the error system catch the ",
+                                                                /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("strong", {
+                                                                    children: "throughput bottleneck"
+                                                                }, void 0, false, {
+                                                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                                                    lineNumber: 120,
+                                                                    columnNumber: 58
+                                                                }, this),
+                                                                " automatically!"
+                                                            ]
+                                                        }, void 0, true, {
+                                                            fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
+                                                            lineNumber: 120,
+                                                            columnNumber: 21
+                                                        }, this)
                                                     ]
                                                 }, void 0, true, {
                                                     fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                                    lineNumber: 109,
-                                                    columnNumber: 17
+                                                    lineNumber: 116,
+                                                    columnNumber: 19
                                                 }, this)
                                             ]
                                         }, void 0, true, {
                                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                            lineNumber: 105,
-                                            columnNumber: 15
+                                            lineNumber: 114,
+                                            columnNumber: 17
                                         }, this)
                                     ]
-                                }, void 0, true, {
-                                    fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                    lineNumber: 103,
-                                    columnNumber: 13
-                                }, this),
+                                }, void 0, true),
                                 nodes.length > 0 && /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])("button", {
                                     onClick: clearAll,
                                     className: "flex items-center justify-center w-full gap-2 text-xs font-bold uppercase tracking-wider text-spi-red hover:text-white transition-colors px-4 py-3 border border-spi-red hover:bg-spi-red bg-spi-red/10",
@@ -1861,46 +1890,46 @@ function IPLAContent() {
                                             size: 14
                                         }, void 0, false, {
                                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                            lineNumber: 117,
+                                            lineNumber: 130,
                                             columnNumber: 17
                                         }, this),
                                         " Clear Workspace"
                                     ]
                                 }, void 0, true, {
                                     fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                                    lineNumber: 113,
+                                    lineNumber: 126,
                                     columnNumber: 15
                                 }, this)
                             ]
                         }, void 0, true, {
                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                            lineNumber: 96,
+                            lineNumber: 97,
                             columnNumber: 11
                         }, this),
                         /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$MetricsPanel$2e$tsx__$5b$app$2d$client$5d$__$28$ecmascript$29$__["default"], {}, void 0, false, {
                             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                            lineNumber: 122,
+                            lineNumber: 135,
                             columnNumber: 11
                         }, this)
                     ]
                 }, void 0, true, {
                     fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                    lineNumber: 74,
+                    lineNumber: 75,
                     columnNumber: 9
                 }, this)
             }, void 0, false, {
                 fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-                lineNumber: 73,
+                lineNumber: 74,
                 columnNumber: 7
             }, this)
         ]
     }, void 0, true, {
         fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-        lineNumber: 71,
+        lineNumber: 72,
         columnNumber: 5
     }, this);
 }
-_s(IPLAContent, "LlAxU2R7RiyR81KWI1imGN4nO+w=", false, function() {
+_s(IPLAContent, "8dHoi3EGwTa15lwqXbT9qRJnOQ8=", false, function() {
     return [
         __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$store$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIPLAStore"],
         __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$src$2f$components$2f$architect$2f$store$2e$ts__$5b$app$2d$client$5d$__$28$ecmascript$29$__["useIPLAStore"],
@@ -1916,12 +1945,12 @@ function ProductionLineArchitect() {
     return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f40$xyflow$2f$react$2f$dist$2f$esm$2f$index$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__$3c$locals$3e$__["ReactFlowProvider"], {
         children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$compiled$2f$react$2f$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$client$5d$__$28$ecmascript$29$__["jsxDEV"])(IPLAContent, {}, void 0, false, {
             fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-            lineNumber: 132,
+            lineNumber: 145,
             columnNumber: 7
         }, this)
     }, void 0, false, {
         fileName: "[project]/spi/src/components/architect/ProductionLineArchitect.tsx",
-        lineNumber: 131,
+        lineNumber: 144,
         columnNumber: 5
     }, this);
 }

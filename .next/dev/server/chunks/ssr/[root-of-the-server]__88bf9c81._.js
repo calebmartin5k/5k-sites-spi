@@ -1255,7 +1255,7 @@ var __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$lucid
 ;
 ;
 ;
-function AIVPEDashboard() {
+function DashboardContent() {
     const [activeTab, setActiveTab] = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useState"])('dashboard');
     const searchParams = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useSearchParams"])();
     const router = (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$navigation$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["useRouter"])();
@@ -1687,6 +1687,27 @@ function KPICard({ title, value, trend, trendUp, icon, alert = false }) {
     }, void 0, true, {
         fileName: "[project]/spi/src/app/aivpe/page.tsx",
         lineNumber: 155,
+        columnNumber: 5
+    }, this);
+}
+function AIVPEDashboard() {
+    return /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(__TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["Suspense"], {
+        fallback: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])("div", {
+            className: "p-8 text-spi-muted font-mono text-xs uppercase tracking-widest animate-pulse",
+            children: "Initializing AIVPE Systems..."
+        }, void 0, false, {
+            fileName: "[project]/spi/src/app/aivpe/page.tsx",
+            lineNumber: 173,
+            columnNumber: 25
+        }, void 0),
+        children: /*#__PURE__*/ (0, __TURBOPACK__imported__module__$5b$project$5d2f$spi$2f$node_modules$2f$next$2f$dist$2f$server$2f$route$2d$modules$2f$app$2d$page$2f$vendored$2f$ssr$2f$react$2d$jsx$2d$dev$2d$runtime$2e$js__$5b$app$2d$ssr$5d$__$28$ecmascript$29$__["jsxDEV"])(DashboardContent, {}, void 0, false, {
+            fileName: "[project]/spi/src/app/aivpe/page.tsx",
+            lineNumber: 174,
+            columnNumber: 7
+        }, this)
+    }, void 0, false, {
+        fileName: "[project]/spi/src/app/aivpe/page.tsx",
+        lineNumber: 173,
         columnNumber: 5
     }, this);
 }
